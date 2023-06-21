@@ -2,13 +2,9 @@
 from adventurelib import *
 
 #functions
-
-
-#Main menu
-
-
-#Pause menu
-
+@when('login player')
+def login(player):
+    print(f'Logging in to sword art online.')
 
 #start command
 start()
